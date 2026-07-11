@@ -149,7 +149,7 @@ header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);backgroun
 
 .sol-visual{position:relative;border-radius:24px;background:linear-gradient(150deg,#26223A,#100D1A);border:1px solid var(--border);aspect-ratio:1/1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:40px}
 .sol-visual::before{content:"";position:absolute;width:70%;height:70%;background:radial-gradient(circle,rgba(243,171,31,.15),transparent 65%);filter:blur(50px)}
-.sol-visual img{width:70%;height:auto;position:relative;z-index:2;filter:drop-shadow(0 20px 50px rgba(243,171,31,.28))}
+.sol-visual img{width:168%;height:auto;position:relative;z-index:2;filter:drop-shadow(0 20px 50px rgba(243,171,31,.28))}
 
 /* STEPS */
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
