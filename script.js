@@ -18,7 +18,7 @@ const I18N={
   about_p2:"Nosso símbolo, um polvo estilizado, representa versatilidade, conexão e atuação em múltiplos canais simultaneamente. A tipografia robusta e contemporânea transmite confiança, profissionalismo e credibilidade. Nosso propósito é simples: transformar presença digital em autoridade e converter visibilidade em pacientes agendados.",
   stat1:"canais integrados", stat2:"conforme CFM", stat3:"prazo de entrega",
 
-  trust1_t:"Revisão clínica", trust1_s:"Emilly valida cada peça",
+  trust1_t:"Revisão clínica", trust1_s:"Emilly valida cada peçat",
   trust2_t:"Entrega em 7 dias", trust2_s:"Da assinatura ao ar",
   trust3_t:"Conforme CFM", trust3_s:"Res. 2.336/2023",
   trust4_t:"Atendimento direto", trust4_s:"Sem intermediário",
