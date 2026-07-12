@@ -18,11 +18,10 @@ const I18N={
   about_p2:"Nosso símbolo, um polvo estilizado, representa versatilidade, conexão e atuação em múltiplos canais simultaneamente. A tipografia robusta e contemporânea transmite confiança, profissionalismo e credibilidade. Nosso propósito é simples: transformar presença digital em autoridade e converter visibilidade em pacientes agendados.",
   stat1:"canais integrados", stat2:"conforme CFM", stat3:"prazo de entrega",
 
-  trust1_t:"Revisão clínica", trust1_s:"Emilly valida cada peçat",
+  trust1_t:"Fazemos seu orçamento", trust1_s:"Estratégia personalizada",
   trust2_t:"Entrega em 7 dias", trust2_s:"Da assinatura ao ar",
-  trust3_t:"Conforme CFM", trust3_s:"Res. 2.336/2023",
-  trust4_t:"Atendimento direto", trust4_s:"Sem intermediário",
-
+  trust3_t:"Atendimento direto", trust3_s:"Sem intermediário",
+  
   prob_eye:"O problema", prob_h2:"Sua agenda tem buracos?",
   prob_intro:"Você é excelente no consultório. O problema raramente é a medicina. É como o paciente te encontra, avalia sua credibilidade e decide marcar. No digital, quem não aparece, não é lembrado.",
   pain1_h:"Indicação não enche agenda",
