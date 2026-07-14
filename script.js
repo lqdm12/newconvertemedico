@@ -5,7 +5,7 @@ const I18N={
   hero_tag:"Criado por quem entende de saúde",
   hero_h1_a:"Presença digital que transforma",
   hero_h1_b:"autoridade em pacientes.",
-  hero_sub:"Criamos sites profissionais, gerenciamos suas redes sociais e entregamos consultoria estratégica em marketing digital para médicos e clínicas. Tudo dentro das regras do CFM. Menos agenda vazia, mais paciente marcando consulta.",
+  hero_sub:"Desenvolvemos marcas, websites e estratégias digitais para profissionais da saúde que desejam fortalecer sua autoridade, transmitir credibilidade e construir conexões de confiança desde o primeiro contato.",
   hero_cta1:"Ver demonstração no WhatsApp", hero_cta2:"Conheça a Converte",
   hero_urg:"3 vagas este mês",
   faces_t:"Leonard, Emilly, Lorena e Michel",
