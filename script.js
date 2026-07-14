@@ -24,7 +24,7 @@ const I18N={
   
   prob_eye:"O problema", prob_h2:"Sua agenda tem buracos?",
   prob_intro:"A maioria dos pacientes conhece você pela internet antes de conhecê-lo pessoalmente. O que eles encontram pode ser o motivo para agendar, ou não, uma consulta.",
-  pain1_h:"Indicação não enche agenda",
+  pain1_h:"A primeira impressão importa",
   pain1_p:"Você depende do boca a boca, e ele é imprevisível. Um mês cheio, o outro vazio. Sem um fluxo constante de novos pacientes, fica difícil planejar o crescimento do consultório, contratar equipe, investir em equipamentos.",
   pain2_h:"Medo de infringir o CFM",
   pain2_p:"Você quer divulgar seu trabalho, mas trava com medo de uma publicidade irregular manchar a sua reputação. As regras são complexas, mudam, e a maioria dos profissionais não tem tempo de estudá-las a fundo.",
