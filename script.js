@@ -78,7 +78,7 @@ const I18N={
   step4_p:"Os contatos qualificados chegam no seu WhatsApp prontos para agendar. Você foca no que faz de melhor: atender.",
 
   port_eye:"Portfólio", port_h2:"Trabalhos que já entregamos",
-  port_intro:"Cada projeto é desenvolvido sob medida para a especialidade do cliente, com foco em conversão e conformidade ética. Veja alguns exemplos de landing pages e sites que criamos.",
+  port_intro:"Cada projeto é desenvolvido sob medida para a especialidade do cliente, com foco em conversão e conformidade ética. Veja alguns exemplos de projetos que entregamos.",
   port1_tag:"Dermatologia", port1_h:"Clínica de Dermatologia Estética",
   port1_p:"Landing page com agendamento online integrado ao WhatsApp e seção de prova social conforme CFM. Resultado: 180% mais consultas no primeiro mês após o lançamento.",
   port2_tag:"Cardiologia", port2_h:"Instituto de Cardiologia",
