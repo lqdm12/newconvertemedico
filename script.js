@@ -132,7 +132,7 @@ const I18N={
   plan_cta:"Falar no WhatsApp",
   plans_note:"Não tem contrato de fidelidade. Não tem letra pequena. Se não estiver satisfeito, a gente conversa antes de qualquer coisa.",
 
-  faq_eye:"Dúvidas", faq_h2:"Perguntas que todo médico faz",
+  faq_eye:"Dúvidas Frequentes", faq_h2:"FAQ",
   faq_intro:"Reunimos as dúvidas mais comuns que recebemos no diagnóstico gratuito. Se a sua não estiver aqui, é só chamar no WhatsApp.",
   final_h2:'Vamos encher a sua <span class="hl">agenda</span>?',
   final_p:"Receba um diagnóstico gratuito da presença digital da sua clínica. Analisamos seu site, suas redes e seu posicionamento no Google, e te mostramos, sem compromisso, onde estão as oportunidades de crescimento.",
@@ -155,12 +155,12 @@ const I18N={
   _waexit:"Olá, quero receber o checklist do CFM gratuito.",
 
   faq:[
-   ["Isso está dentro das regras do CFM?","Sim, totalmente. A Emilly, que é estudante de medicina, revisa pessoalmente cada conteúdo antes de publicar. Seguimos a Resolução CFM 2.336/2023 à risca e adaptamos para o conselho da sua área quando necessário. Nenhuma peça nossa promete resultado, usa antes-e-depois irregular ou faz sensacionalismo. Conformidade é a base do nosso trabalho, não um detalhe."],
-   ["Em quanto tempo eu vejo resultado?","A página fica pronta em 7 dias após a aprovação do briefing. Os primeiros contatos pelo tráfego pago costumam aparecer nas primeiras semanas. Resultados orgânicos (SEO) levam mais tempo, geralmente 60 a 90 dias. Marketing sério é construção contínua, não uma loteria, e a gente é transparente sobre isso desde o primeiro dia."],
-   ["Precisarei aparecer em vídeo ou gravar reels?","Ajuda muito, mas não é obrigatório. A gente trabalha com aquilo que você se sente confortável. Tem cliente que adora aparecer, tem cliente que prefere bastidor da clínica, tem cliente que prefere só foto profissional. Sempre com sobriedade e bom gosto, dentro do que o CFM permite."],
-   ["Vocês são novos. Por que confiar?","Verdade, somos novos. E temos uma médica revisando cada peça, você fala direto com quem faz o serviço, e a gente trabalha com vagas limitadas de propósito para poder entregar com qualidade. Se durante o diagnóstico a gente perceber que não faz sentido para o seu caso, vamos te falar antes de assinar qualquer coisa. Honestidade é o nosso primeiro produto."],
-   ["E se eu não gostar do resultado?","Antes do lançamento você aprova cada detalhe. Se após o lançamento algo não estiver certo, a gente corrige sem burocracia e sem cobrança extra. Os planos mensais não têm fidelidade. Se em algum momento você quiser parar, é só avisar. Nada de cláusula escondida."],
-   ["E os meus dados e os dos meus pacientes?","Tudo conforme a LGPD. Os contatos gerados pelas campanhas chegam direto no seu WhatsApp, ficam com você, e a gente não compartilha nada com terceiros. Os relatórios são privados e protegidos. Você é dono dos seus dados, ponto."]
+   ["Isso está de acordo com as normas dos conselhos profissionais?","Sim. Desenvolvemos nossos projetos considerando as diretrizes de publicidade e comunicação aplicáveis aos profissionais da saúde. Sempre buscamos alinhar as estratégias às normas vigentes e às boas práticas éticas da área."],
+   ["Como funciona o desenvolvimento do projeto?","Cada projeto inicia com um briefing para compreendermos seus objetivos e necessidades. A partir dessas informações, desenvolvemos uma solução personalizada e apresentamos as etapas do projeto para validação antes da entrega final."],
+   ["Qual é o prazo para entrega dos projetos?","O prazo varia conforme o serviço contratado e a complexidade do projeto. Antes do início dos trabalhos, apresentamos um cronograma com todas as etapas e prazos previstos."],
+   ["Posso contratar apenas um serviço?","Sim. Você pode contratar serviços de forma individual ou optar por uma estratégia completa, de acordo com as necessidades do seu consultório ou da sua carreira."],
+   ["Posso solicitar ajustes durante o desenvolvimento?","Sim. O projeto contempla etapas de validação para que você possa revisar as entregas e solicitar os ajustes previstos antes da conclusão, garantindo um resultado alinhado ao briefing aprovado."],
+   ["Vocês oferecem suporte após a entrega?","Sim. Permanecemos disponíveis para orientações e suporte conforme o serviço contratado."]
   ]
  },
  en:{
