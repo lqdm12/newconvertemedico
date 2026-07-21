@@ -100,12 +100,13 @@ const I18N={
   michel_role:"Gestor de Vendas", michel_city:"São Paulo, SP",
   michel_bio:"Vendedor profissional com passagem pelo mercado imobiliário e cartas de crédito. Cuida das vendas e do relacionamento com cada cliente, sem forçar nada.",
 
-  proof_eye:"Por que confiar", proof_h2:"Processo claro, sem caixa-preta",
-  proof_p1:"Estamos começando com poucos clientes selecionados, de propósito. Você fala direto com quem entende de saúde, acompanha cada etapa e aprova tudo antes de ir ao ar, sempre dentro do CFM e da LGPD.",
-  proof_p2:"Não trabalhamos com promessas vazias nem métricas infladas. Cada relatório mostra o que realmente importa: quantas pessoas viram sua página, quantas entraram em contato e quantas agendaram. Transparência total do início ao fim.",
+  proof_eye:"Por que confiar", proof_h2:"Conformidade profissional",
+  proof_p1:"Desenvolvemos sites e páginas com uma metodologia estruturada, priorizando desempenho, segurança e qualidade técnica. Durante todo o processo, você acompanha a evolução do projeto e tem clareza sobre cada entrega.",
+  proof_p2:"Projetos desenvolvidos considerando as diretrizes dos conselhos da saúde.",
   badge1_t:"Conforme CFM", badge1_s:"Resolução 2.336/2023",
   badge2_t:"Dados protegidos", badge2_s:"Conforme a LGPD",
   badge3_t:"Site seguro", badge3_s:"Certificado SSL incluso",
+  badge4_t:"Site seguro", badge4_s:"Certificado SSL incluso",
   proof_q:'Marketing que mostra <span class="hl">competência</span>, sem prometer milagre.',
   proof_auth:"Time com formação clínica validando cada peça que vai ao ar.",
 
