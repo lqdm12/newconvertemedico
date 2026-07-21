@@ -118,7 +118,7 @@ const I18N={
   plan1_f3:"Conforme CFM e LGPD", plan1_f4:"Integração com WhatsApp",
   plan1_f5:"Entrega em 7 dias", plan1_f6:"Hospedagem inclusa (1 ano)",
   plan2_tag:"Mais escolhido", plan2_n:"Profissional",
-  plan2_d:"Página mais tráfego gerido todo mês, com otimização contínua. Para quem quer resultado consistente.",
+  plan2_d:"Página com tráfego gerido todo mês, com otimização contínua.",
   plan2_per:"por mês",
   plan2_f1:"Tudo do Essencial", plan2_f2:"Gestão de tráfego (Google e Meta)",
   plan2_f3:"Otimização mensal de conversão", plan2_f4:"Relatórios simples e diretos",
