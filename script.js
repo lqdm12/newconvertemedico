@@ -61,7 +61,7 @@ const I18N={
   sol_eye:"Para quem está começando", sol_h2:"Você não precisa esperar seu consultório crescer para começar a construir sua marca.",
   sol_p1:"A Converte te ensina toda a estratégia para a construção da sua  presença digital, mas também mostra como se posicionar para atrair seus primeiros pacientes, apresentar seus serviços, fechar consultas e construir sua autoridade nesse mercado.",
 
-  how_eye:"Como funciona", how_h2:"Do briefing ao paciente agendado",
+  how_eye:"Benefícios", how_h2:"Do briefing ao paciente agendado",
   how_intro:"Um processo simples, transparente e sem caixa-preta. Você acompanha cada etapa, aprova tudo antes de ir ao ar e recebe relatórios claros sobre o que está funcionando.",
   step1_h:"Briefing estratégico",
   step1_p:"Entendemos sua especialidade, seu público-alvo, seus diferenciais e as regras específicas do seu conselho. Mapeamos oportunidades e definimos metas claras.",
@@ -83,16 +83,13 @@ const I18N={
   port4_tag:"Pediatria", port4_h:"Clínica Pediátrica",
   port4_p:"Site responsivo com área dedicada aos pais, calendário de vacinas interativo e integração com Google Meu Negócio. Avaliações no Google passaram de 4.2 para 4.9 estrelas.",
 
-  team_eye:"Quem somos", team_h2:"Gente real por trás da Converte Médico",
-  team_intro:"Somos um time pequeno, de propósito. Cada um de nós traz uma peça diferente: vendas, comunicação, estratégia e tecnologia. Juntos, a gente entende o que o médico precisa porque conversa com médico todo dia.",
-
   proof_eye:"Por que confiar", proof_h2:"Processo claro, sem caixa-preta",
   proof_p1:"Estamos começando com poucos clientes selecionados, de propósito. Você fala direto com quem entende de saúde, acompanha cada etapa e aprova tudo antes de ir ao ar, sempre dentro do CFM e da LGPD.",
   proof_p2:"Não trabalhamos com promessas vazias nem métricas infladas. Cada relatório mostra o que realmente importa: quantas pessoas viram sua página, quantas entraram em contato e quantas agendaram. Transparência total do início ao fim.",
   badge1_t:"LGPD", badge1_s:"Dados protegidos",
   badge2_t:"Site Seguro", badge2_s:"Certificado SSL incluso",
-  badge3_t:"Segurança Digital", badge3_s:"Boas práticas de desenvolvimento e proteção dos ativos digitais",
-  badge4_t:"Transparência", badge4_s:"Processos claros e acompanhamento em todas as etapas",
+  badge3_t:"Segurança Digital", badge3_s:"Proteção dos ativos digitais",
+  badge4_t:"Transparência", badge4_s:"Acompanhamento em todas as etapas",
 
   price_eye:"Planos", price_h2:"Comece pequeno e cresça",
   price_intro:"Escolha o ponto de partida. Sem fidelidade abusiva, com clareza do começo ao fim. Todos os planos incluem suporte humano e relatórios mensais.",
@@ -206,7 +203,7 @@ const I18N={
   sol_eye:"For those starting out", sol_h2:"You don't need to wait for your clinic to grow to start building your brand.",
   sol_p1:"Converte teaches you the full strategy for building your digital presence, but also shows how to position yourself to attract your first patients, present your services, close appointments and build your authority in the market.",
 
-  how_eye:"How it works", how_h2:"From briefing to booked patient",
+  how_eye:"Benefits", how_h2:"From briefing to booked patient",
   how_intro:"A simple, transparent process with no black boxes. You follow every step, approve everything before it goes live, and receive clear reports on what's working.",
   step1_h:"Strategic briefing",
   step1_p:"We understand your specialty, audience, differentials and the specific rules of your council. We map opportunities and set clear goals.",
@@ -228,16 +225,13 @@ const I18N={
   port4_tag:"Pediatrics", port4_h:"Pediatric Clinic",
   port4_p:"Responsive site with dedicated parents area, interactive vaccination calendar and Google My Business integration. Google reviews went from 4.2 to 4.9 stars.",
 
-  team_eye:"Who we are", team_h2:"Real people behind Converte Médico",
-  team_intro:"We're a small team, on purpose. Each of us brings a different piece: sales, communication, strategy and technology. Together, we understand what doctors need because we talk to doctors every day.",
-
   proof_eye:"Why trust us", proof_h2:"Clear process, no black box",
   proof_p1:"We're starting with a few selected clients, on purpose. You talk directly to people who understand healthcare, follow every step and approve everything before it goes live, always within CFM and LGPD.",
   proof_p2:"We don't work with empty promises or inflated metrics. Every report shows what really matters: how many people saw your page, how many got in touch, and how many booked. Total transparency from start to finish.",
   badge1_t:"LGPD", badge1_s:"Data protected",
   badge2_t:"Secure site", badge2_s:"SSL certificate included",
-  badge3_t:"Digital security", badge3_s:"Development best practices and digital asset protection",
-  badge4_t:"Transparency", badge4_s:"Clear processes and follow-up at every stage",
+  badge3_t:"Digital security", badge3_s:"Digital asset protection",
+  badge4_t:"Transparency", badge4_s:"Follow-up at every stage",
 
   price_eye:"Plans", price_h2:"Start small and grow",
   price_intro:"Choose your starting point. No abusive lock-ins, clear from start to finish. All plans include human support and monthly reports.",
