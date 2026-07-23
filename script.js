@@ -1,3 +1,6 @@
+(function(){
+"use strict";
+
 const WA="5592988239631";
 const I18N={
  pt:{
@@ -7,21 +10,16 @@ const I18N={
   hero_h1_b:"autoridade em pacientes.",
   hero_sub:"Desenvolvemos marcas, websites e estratégias digitais para profissionais da saúde que desejam fortalecer sua autoridade, transmitir credibilidade e construir conexões de confiança desde o primeiro contato.",
   hero_cta1:"Ver demonstração no WhatsApp", hero_cta2:"Conheça a Converte",
-  hero_urg:"3 vagas este mês",
-  faces_t:"Leonard, Emilly, Lorena e Michel",
-  faces_s:"Sua equipe dedicada, do briefing ao paciente agendado",
-  ch_ads:"Tráfego pago", ch_seo:"SEO local", ch_rev:"Reputação", ch_ref:"Indicação",
 
   about_eye:"Sobre a Converte",
   about_h2:'O que é a <span class="hl">Converte Médico?</span>',
-  about_p1:"A Converte Médico nasceu com o propósito de ajudar médicos e profissionais da saúde a fortalecerem sua presença digital de forma estratégica, ética e orientada a resultados. Oferecemos criação de sites profissionais, gestão de redes sociais e consultoria em marketing digital, conectando posicionamento de marca, autoridade e geração de oportunidades de negócio.",
-  about_p2:"Nosso símbolo, um polvo estilizado, representa versatilidade, conexão e atuação em múltiplos canais simultaneamente. A tipografia robusta e contemporânea transmite confiança, profissionalismo e credibilidade. Nosso propósito é simples: transformar presença digital em autoridade e converter visibilidade em pacientes agendados.",
+  about_p1:"A CONVERTE nasceu para transformar a presença digital de empresas e profissionais que desejam crescer de forma estratégica. Desenvolvemos sites profissionais, lojas virtuais (e-commerce) e landing pages de alta conversão, aliados a um gerenciamento de redes sociais e campanhas de tráfego pago para atrair, conquistar e fidelizar pacientes. Mais do que oferecer serviços de marketing, o propósito da CONVERTE  é criar estratégias personalizadas que fortalecem a identidade da sua marca, aumentam sua autoridade no mercado e impulsionam resultados reais.",
   stat1:"canais integrados", stat2:"conforme CFM", stat3:"prazo de entrega",
 
   trust1_t:"Fazemos seu orçamento", trust1_s:"Estratégia personalizada",
   trust2_t:"Entrega em 7 dias", trust2_s:"Da assinatura ao ar",
-  trust3_t:"Atendimento direto", trust3_s:"Sem intermediário",
-  
+  trust3_t:"Conforme CFM", trust3_s:"Res. 2.336/2023",
+
   prob_eye:"O problema", prob_h2:"Sua agenda tem buracos?",
   prob_intro:"A maioria dos pacientes conhece você pela internet antes de conhecê-lo pessoalmente. O que eles encontram pode ser o motivo para agendar, ou não, uma consulta.",
   pain1_h:"A primeira impressão importa",
@@ -60,11 +58,8 @@ const I18N={
   svc6_l3:"Sessões mensais de orientação", svc6_l4:"Acompanhamento de metas",
   svc_cta:"Falar com a gente",
 
-  sol_eye:"Para quem está começando", sol_h2:"Você não precisa esperar seu consultório crescer para começar a construir sua marca",
-  sol_p1:"A Converte te ensina toda a estratégia para a construção da sua  presença digital, mas também mostra como se posicionar para atrair seus primeiros pacientes, apresentar seus serviços, fechar consultas e construir sua autoridade nesse marcado.",
-  sol_p2:"Não adianta ter um site bonito se ninguém chega até ele. Não adianta ter seguidores se eles não viram pacientes. A Converte conecta todos os pontos: do primeiro clique ao agendamento no seu WhatsApp, com relatórios claros e transparência total.",
-  sol_quote:'"Um polvo não é engraçado. É a melhor metáfora que a gente encontrou para descrever como canais diferentes precisam trabalhar juntos, com inteligência, puxando o mesmo paciente para a mesma direção."',
-  sol_quote_a:"Emilly Pinheiros, Diretora de Marketing",
+  sol_eye:"Para quem está começando", sol_h2:"Você não precisa esperar seu consultório crescer para começar a construir sua marca.",
+  sol_p1:"A Converte te ensina toda a estratégia para a construção da sua  presença digital, mas também mostra como se posicionar para atrair seus primeiros pacientes, apresentar seus serviços, fechar consultas e construir sua autoridade nesse mercado.",
 
   how_eye:"Como funciona", how_h2:"Do briefing ao paciente agendado",
   how_intro:"Um processo simples, transparente e sem caixa-preta. Você acompanha cada etapa, aprova tudo antes de ir ao ar e recebe relatórios claros sobre o que está funcionando.",
@@ -78,7 +73,7 @@ const I18N={
   step4_p:"Os contatos qualificados chegam no seu WhatsApp prontos para agendar. Você foca no que faz de melhor: atender.",
 
   port_eye:"Portfólio", port_h2:"Trabalhos que já entregamos",
-  port_intro:"Cada projeto é desenvolvido sob medida para a especialidade do cliente, com foco em conversão e conformidade ética. Veja alguns exemplos de projetos que entregamos.",
+  port_intro:"Cada projeto é desenvolvido sob medida para a especialidade do cliente, com foco em conversão e conformidade ética. Veja alguns exemplos de landing pages e sites que criamos.",
   port1_tag:"Dermatologia", port1_h:"Clínica de Dermatologia Estética",
   port1_p:"Landing page com agendamento online integrado ao WhatsApp e seção de prova social conforme CFM. Resultado: 180% mais consultas no primeiro mês após o lançamento.",
   port2_tag:"Cardiologia", port2_h:"Instituto de Cardiologia",
@@ -90,36 +85,25 @@ const I18N={
 
   team_eye:"Quem somos", team_h2:"Gente real por trás da Converte Médico",
   team_intro:"Somos um time pequeno, de propósito. Cada um de nós traz uma peça diferente: vendas, comunicação, estratégia e tecnologia. Juntos, a gente entende o que o médico precisa porque conversa com médico todo dia.",
-  team_badge:"Revisão Clínica",
-  emilly_role:"Diretora de Marketing · Founder", emilly_city:"Alter do Chão, PA",
-  emilly_bio:"Estudante de medicina pela UEAP, redatora, webdesigner e gestora financeira. Une o olhar clínico à estratégia de marketing. Nenhuma peça vai ao ar sem ela ver.",
-  leonard_role:"Gerente de Marketing · Founder", leonard_city:"Santa Teresa, ES",
-  leonard_bio:"Desenvolvedor front-end formado pela Mimo e freeCodeCamp. Já construiu produtos digitais na Eco Caminhos, XLab e NexusVest. Hoje lidera a operação técnica da Converte.",
-  lorena_role:"Diretora de Comunicação · Founder", lorena_city:"Rio de Janeiro, RJ",
-  lorena_bio:"Relações Internacionais pela PUC-Rio. Voluntária na UNICEF, formação em design pelo SENAC e redação corporativa pela FGV. Cuida da voz da marca e do relacionamento.",
-  michel_role:"Gestor de Vendas", michel_city:"São Paulo, SP",
-  michel_bio:"Vendedor profissional com passagem pelo mercado imobiliário e cartas de crédito. Cuida das vendas e do relacionamento com cada cliente, sem forçar nada.",
 
-  proof_eye:"Por que confiar", proof_h2:"Conformidade profissional",
-  proof_p1:"Desenvolvemos sites e páginas com uma metodologia estruturada, priorizando desempenho, segurança e qualidade técnica. Durante todo o processo, você acompanha a evolução do projeto e tem clareza sobre cada entrega.",
-  proof_p2:"Projetos desenvolvidos considerando as diretrizes dos conselhos da saúde.",
+  proof_eye:"Por que confiar", proof_h2:"Processo claro, sem caixa-preta",
+  proof_p1:"Estamos começando com poucos clientes selecionados, de propósito. Você fala direto com quem entende de saúde, acompanha cada etapa e aprova tudo antes de ir ao ar, sempre dentro do CFM e da LGPD.",
+  proof_p2:"Não trabalhamos com promessas vazias nem métricas infladas. Cada relatório mostra o que realmente importa: quantas pessoas viram sua página, quantas entraram em contato e quantas agendaram. Transparência total do início ao fim.",
   badge1_t:"LGPD", badge1_s:"Dados protegidos",
   badge2_t:"Site Seguro", badge2_s:"Certificado SSL incluso",
   badge3_t:"Segurança Digital", badge3_s:"Boas práticas de desenvolvimento e proteção dos ativos digitais",
   badge4_t:"Transparência", badge4_s:"Processos claros e acompanhamento em todas as etapas",
-  proof_q:'Marketing que mostra <span class="hl">competência</span>, sem prometer milagre.',
-  proof_auth:"Time com formação clínica validando cada peça que vai ao ar.",
 
-  price_eye:"Planos", price_h2:"Soluções pensadas para cada etapa do seu crescimento",
-  price_intro:"Do primeiro passo no digital à consolidação da sua marca, oferecemos planos personalizados para atender às necessidades do seu consultório.",
+  price_eye:"Planos", price_h2:"Comece pequeno e cresça",
+  price_intro:"Escolha o ponto de partida. Sem fidelidade abusiva, com clareza do começo ao fim. Todos os planos incluem suporte humano e relatórios mensais.",
   plan1_n:"Essencial",
-  plan1_d:"Ideal para quem está começando.",
+  plan1_d:"Uma landing page de alta conversão, conforme CFM, integrada ao seu WhatsApp. Ideal para quem está começando.",
   plan1_per:"projeto único",
   plan1_f1:"Página única otimizada", plan1_f2:"Copywriting que converte",
   plan1_f3:"Conforme CFM e LGPD", plan1_f4:"Integração com WhatsApp",
   plan1_f5:"Entrega em 7 dias", plan1_f6:"Hospedagem inclusa (1 ano)",
   plan2_tag:"Mais escolhido", plan2_n:"Profissional",
-  plan2_d:"Página com tráfego gerido todo mês, com otimização contínua.",
+  plan2_d:"Página mais tráfego gerido todo mês, com otimização contínua. Para quem quer resultado consistente.",
   plan2_per:"por mês",
   plan2_f1:"Tudo do Essencial", plan2_f2:"Gestão de tráfego (Google e Meta)",
   plan2_f3:"Otimização mensal de conversão", plan2_f4:"Relatórios simples e diretos",
@@ -131,9 +115,9 @@ const I18N={
   plan3_f3:"Estratégia dedicada", plan3_f4:"Acompanhamento próximo",
   plan3_f5:"Gestão completa de redes sociais", plan3_f6:"Consultoria mensal de posicionamento",
   plan_cta:"Falar no WhatsApp",
-  plans_note:"Trocar por Garantia incondicional de 7 dias.",
+  plans_note:"Não tem contrato de fidelidade. Não tem letra pequena. Se não estiver satisfeito, a gente conversa antes de qualquer coisa.",
 
-  faq_eye:"Dúvidas Frequentes", faq_h2:"FAQ",
+  faq_eye:"Dúvidas", faq_h2:"Perguntas que todo médico faz",
   faq_intro:"Reunimos as dúvidas mais comuns que recebemos no diagnóstico gratuito. Se a sua não estiver aqui, é só chamar no WhatsApp.",
   final_h2:'Vamos encher a sua <span class="hl">agenda</span>?',
   final_p:"Receba um diagnóstico gratuito da presença digital da sua clínica. Analisamos seu site, suas redes e seu posicionamento no Google, e te mostramos, sem compromisso, onde estão as oportunidades de crescimento.",
@@ -171,21 +155,15 @@ const I18N={
   hero_h1_b:"authority into patients.",
   hero_sub:"We build professional websites, manage your social media and deliver strategic digital marketing consulting for doctors and clinics. All within CFM rules. Fewer empty slots, more patients booking.",
   hero_cta1:"See a WhatsApp demo", hero_cta2:"About Converte",
-  hero_urg:"3 spots this month",
-  faces_t:"Leonard, Emilly, Lorena and Michel",
-  faces_s:"Your dedicated team, from briefing to booked patient",
-  ch_ads:"Paid ads", ch_seo:"Local SEO", ch_rev:"Reviews", ch_ref:"Referrals",
 
   about_eye:"About Converte",
   about_h2:'What is <span class="hl">Converte Médico?</span>',
   about_p1:"Converte Médico was created to help doctors and healthcare professionals strengthen their digital presence strategically, ethically, and with focus on results. We build professional websites, manage social media, and provide digital marketing consulting that connects brand positioning, authority, and new business opportunities.",
-  about_p2:"Our symbol, a stylized octopus, represents versatility, connection, and presence across multiple channels at once. The robust, contemporary typography conveys confidence, professionalism, and credibility. Our purpose is simple: turn digital presence into authority and convert visibility into booked patients.",
   stat1:"channels", stat2:"CFM compliant", stat3:"delivery time",
 
   trust1_t:"Clinical review", trust1_s:"Emilly validates everything",
   trust2_t:"7-day delivery", trust2_s:"From signing to live",
   trust3_t:"CFM compliant", trust3_s:"Res. 2.336/2023",
-  trust4_t:"Direct contact", trust4_s:"No middlemen",
 
   prob_eye:"The problem", prob_h2:"Does your schedule have gaps?",
   prob_intro:"You're excellent in the office. The problem is rarely the medicine. It's how patients find you, assess your credibility and decide to book. In the digital world, if you don't show up, you don't get remembered.",
@@ -225,11 +203,8 @@ const I18N={
   svc6_l3:"Monthly guidance sessions", svc6_l4:"Goal tracking",
   svc_cta:"Talk to us",
 
-  sol_eye:"The solution", sol_h2:"The octopus of medical marketing",
-  sol_p1:"An octopus coordinates eight arms at once, intelligently. That's how we work: eight channels pulling patients to your page, all integrated and within CFM rules.",
-  sol_p2:"A beautiful site is useless if no one reaches it. Followers are useless if they don't become patients. Converte connects every dot: from first click to booking in your WhatsApp, with clear reports and total transparency.",
-  sol_quote:'"An octopus isn\'t funny. It\'s the best metaphor we found for how different channels need to work together, intelligently, pulling the same patient in the same direction."',
-  sol_quote_a:"Emilly Pinheiros, Marketing Director",
+  sol_eye:"For those starting out", sol_h2:"You don't need to wait for your clinic to grow to start building your brand.",
+  sol_p1:"Converte teaches you the full strategy for building your digital presence, but also shows how to position yourself to attract your first patients, present your services, close appointments and build your authority in the market.",
 
   how_eye:"How it works", how_h2:"From briefing to booked patient",
   how_intro:"A simple, transparent process with no black boxes. You follow every step, approve everything before it goes live, and receive clear reports on what's working.",
@@ -255,24 +230,14 @@ const I18N={
 
   team_eye:"Who we are", team_h2:"Real people behind Converte Médico",
   team_intro:"We're a small team, on purpose. Each of us brings a different piece: sales, communication, strategy and technology. Together, we understand what doctors need because we talk to doctors every day.",
-  team_badge:"Clinical Review",
-  emilly_role:"Marketing Director · Founder", emilly_city:"Alter do Chão, PA",
-  emilly_bio:"Medical student at UEAP, copywriter, web designer and financial manager. Brings the clinical lens to marketing strategy. Nothing goes live without her review.",
-  leonard_role:"Marketing Manager · Founder", leonard_city:"Santa Teresa, ES",
-  leonard_bio:"Front-end developer trained at Mimo and freeCodeCamp. Built digital products at Eco Caminhos, XLab and NexusVest. Now leads Converte's technical operation.",
-  lorena_role:"Communications Director · Founder", lorena_city:"Rio de Janeiro, RJ",
-  lorena_bio:"International Relations at PUC-Rio. UNICEF volunteer, design training at SENAC and corporate writing at FGV. Cares for the brand voice and relationships.",
-  michel_role:"Sales Manager", michel_city:"São Paulo, SP",
-  michel_bio:"Professional salesperson with experience in real estate and credit markets. Handles sales and relationships with each client, without pushing.",
 
   proof_eye:"Why trust us", proof_h2:"Clear process, no black box",
   proof_p1:"We're starting with a few selected clients, on purpose. You talk directly to people who understand healthcare, follow every step and approve everything before it goes live, always within CFM and LGPD.",
   proof_p2:"We don't work with empty promises or inflated metrics. Every report shows what really matters: how many people saw your page, how many got in touch, and how many booked. Total transparency from start to finish.",
-  badge1_t:"CFM compliant", badge1_s:"Resolution 2.336/2023",
-  badge2_t:"Data protected", badge2_s:"LGPD compliant",
-  badge3_t:"Secure site", badge3_s:"SSL certificate included",
-  proof_q:'Marketing that shows <span class="hl">competence</span>, without promising miracles.',
-  proof_auth:"A team with clinical background validating every piece that goes live.",
+  badge1_t:"LGPD", badge1_s:"Data protected",
+  badge2_t:"Secure site", badge2_s:"SSL certificate included",
+  badge3_t:"Digital security", badge3_s:"Development best practices and digital asset protection",
+  badge4_t:"Transparency", badge4_s:"Clear processes and follow-up at every stage",
 
   price_eye:"Plans", price_h2:"Start small and grow",
   price_intro:"Choose your starting point. No abusive lock-ins, clear from start to finish. All plans include human support and monthly reports.",
@@ -330,72 +295,115 @@ const I18N={
  }
 };
 
-let lang="pt";
+var lang="pt";
+
 function waLink(msg){return "https://wa.me/"+WA+"?text="+encodeURIComponent(msg);}
 
 function buildFAQ(){
-  const box=document.getElementById("faq"); box.innerHTML="";
-  I18N[lang].faq.forEach(qa=>{
-    const d=document.createElement("div"); d.className="qa";
-    d.innerHTML='<button aria-expanded="false"><span>'+qa[0]+'</span><span class="plus">+</span></button><div class="ans"><p>'+qa[1]+'</p></div>';
-    const btn=d.querySelector("button"),ans=d.querySelector(".ans");
-    btn.addEventListener("click",()=>{
-      const open=d.classList.toggle("open");
-      btn.setAttribute("aria-expanded",open);
-      ans.style.maxHeight=open?ans.scrollHeight+"px":0;
+  var box=document.getElementById("faq");
+  if(box.children.length>0){
+    var faqs=I18N[lang].faq;
+    var buttons=box.querySelectorAll(".qa");
+    buttons.forEach(function(qa,i){
+      if(!faqs[i])return;
+      qa.querySelector("span").textContent=faqs[i][0];
+      qa.querySelector(".ans p").textContent=faqs[i][1];
+    });
+    return;
+  }
+  box.innerHTML="";
+  I18N[lang].faq.forEach(function(qa){
+    var d=document.createElement("div");
+    d.className="qa";
+    var btn=document.createElement("button");
+    btn.setAttribute("aria-expanded","false");
+    var qSpan=document.createElement("span");
+    qSpan.textContent=qa[0];
+    var plus=document.createElement("span");
+    plus.className="plus";
+    plus.textContent="+";
+    btn.appendChild(qSpan);
+    btn.appendChild(plus);
+    var ans=document.createElement("div");
+    ans.className="ans";
+    var p=document.createElement("p");
+    p.textContent=qa[1];
+    ans.appendChild(p);
+    d.appendChild(btn);
+    d.appendChild(ans);
+    btn.addEventListener("click",function(){
+      var open=d.classList.toggle("open");
+      btn.setAttribute("aria-expanded",String(open));
+      ans.style.maxHeight=open?ans.scrollHeight+"px":"0";
     });
     box.appendChild(d);
   });
 }
 
 function apply(){
-  const t=I18N[lang];
+  var t=I18N[lang];
   document.documentElement.lang=lang==="pt"?"pt-BR":"en";
-  document.querySelectorAll("[data-i18n]").forEach(el=>{
-    const k=el.getAttribute("data-i18n"); if(t[k]!=null) el.textContent=t[k];
+  document.querySelectorAll("[data-i18n]").forEach(function(el){
+    var k=el.getAttribute("data-i18n");
+    if(t[k]!=null) el.textContent=t[k];
   });
-  document.querySelectorAll("[data-i18n-html]").forEach(el=>{
-    const k=el.getAttribute("data-i18n-html"); if(t[k]!=null) el.innerHTML=t[k];
+  document.querySelectorAll("[data-i18n-html]").forEach(function(el){
+    var k=el.getAttribute("data-i18n-html");
+    if(t[k]!=null) el.innerHTML=t[k];
   });
-  document.querySelectorAll("[data-wa]").forEach(a=>a.setAttribute("href",waLink(t._wa)));
-  document.querySelectorAll("[data-wa-exit]").forEach(a=>a.setAttribute("href",waLink(t._waexit)));
+  document.querySelectorAll("[data-wa]").forEach(function(a){a.setAttribute("href",waLink(t._wa));});
+  document.querySelectorAll("[data-wa-exit]").forEach(function(a){a.setAttribute("href",waLink(t._waexit));});
   buildFAQ();
 }
 
-document.querySelectorAll(".lang button").forEach(b=>b.addEventListener("click",()=>{
-  lang=b.getAttribute("data-lang");
-  document.querySelectorAll(".lang button").forEach(x=>x.classList.remove("on"));
-  b.classList.add("on"); apply();
-}));
+document.querySelectorAll(".lang button").forEach(function(b){
+  b.addEventListener("click",function(){
+    lang=b.getAttribute("data-lang");
+    document.querySelectorAll(".lang button").forEach(function(x){x.classList.remove("on");});
+    b.classList.add("on");
+    apply();
+  });
+});
 
-const io=new IntersectionObserver(es=>es.forEach(e=>{
-  if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}
-}),{threshold:.12});
-document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+var io=new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){
+      e.target.classList.add("in");
+      io.unobserve(e.target);
+    }
+  });
+  if(document.querySelectorAll(".reveal:not(.in)").length===0){
+    io.disconnect();
+  }
+},{threshold:0.12});
+document.querySelectorAll(".reveal").forEach(function(el){io.observe(el);});
 
-document.getElementById("leadform").addEventListener("submit",e=>{
+document.getElementById("leadform").addEventListener("submit",function(e){
   e.preventDefault();
-  const name=document.getElementById("f_name"),wa=document.getElementById("f_wa"),spec=document.getElementById("f_spec");
-  let ok=true;
-  [name,wa].forEach(inp=>{
-    const f=inp.closest(".field");
+  var name=document.getElementById("f_name");
+  var wa=document.getElementById("f_wa");
+  var spec=document.getElementById("f_spec");
+  var ok=true;
+  [name,wa].forEach(function(inp){
+    var f=inp.closest(".field");
     if(!inp.value.trim()){f.classList.add("invalid");ok=false;}else f.classList.remove("invalid");
   });
   if(!ok)return;
-  const msg=(lang==="pt"
+  var msg=(lang==="pt"
     ?"Olá, quero o diagnóstico gratuito.\nNome: "+name.value+(spec.value?"\nEspecialidade: "+spec.value:"")+"\nWhatsApp: "+wa.value
     :"Hi, I'd like the free diagnosis.\nName: "+name.value+(spec.value?"\nSpecialty: "+spec.value:"")+"\nWhatsApp: "+wa.value);
   window.open(waLink(msg),"_blank");
 });
 
-let exited=false;
-document.addEventListener("mouseout",e=>{
+var exited=false;
+document.addEventListener("mouseout",function(e){
   if(exited||window.innerWidth<900)return;
   if(!e.relatedTarget&&e.clientY<=0){exited=true;document.getElementById("exit").classList.add("show");}
 });
-document.getElementById("exitX").addEventListener("click",()=>document.getElementById("exit").classList.remove("show"));
-document.getElementById("exit").addEventListener("click",e=>{
+document.getElementById("exitX").addEventListener("click",function(){document.getElementById("exit").classList.remove("show");});
+document.getElementById("exit").addEventListener("click",function(e){
   if(e.target.id==="exit")document.getElementById("exit").classList.remove("show");
 });
 
 apply();
+})();
