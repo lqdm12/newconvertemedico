@@ -61,6 +61,22 @@ const I18N={
   sol_eye:"Para quem está começando", sol_h2:"Você não precisa esperar seu consultório crescer para começar a construir sua marca.",
   sol_p1:"A Converte te ensina toda a estratégia para a construção da sua  presença digital, mas também mostra como se posicionar para atrair seus primeiros pacientes, apresentar seus serviços, fechar consultas e construir sua autoridade nesse mercado.",
 
+  dp_eye:"Depoimentos",
+  dp_h2:"Quem já colocou o consultório no digital",
+  dp_intro:"Médicos e clínicas que passaram a ser encontrados pelo paciente certo.",
+  dp1_t:"Eu tinha só o Instagram e vivia respondendo a mesma pergunta no direct. Agora o paciente chega sabendo o valor da consulta e onde fica o consultório.",
+  dp1_name:"Dra. Nome Sobrenome", dp1_role:"Dermatologia · Cidade, UF",
+  dp2_t:"O que me convenceu foi eles entenderem o que o CFM permite e o que não permite. Já tinha recusado duas agências antes.",
+  dp2_name:"Dr. Nome Sobrenome", dp2_role:"Ortopedia · Cidade, UF",
+  dp3_t:"Demorei pra mandar as fotos e isso atrasou minha parte, não a deles. Fora isso, o agendamento pelo WhatsApp funcionou desde o primeiro dia.",
+  dp3_name:"Nome da Clínica", dp3_role:"Clínica multiprofissional · Cidade, UF",
+  dp4_t:"Meu site antigo abria torto no celular e eu nem sabia. Quase todo paciente chega pelo telefone, então isso era dinheiro saindo pela porta.",
+  dp4_name:"Dr. Nome Sobrenome", dp4_role:"Cardiologia · Cidade, UF",
+
+  dp_prev:"Depoimento anterior", dp_next:"Próximo depoimento",
+  dp_go:"Ir para o depoimento", dp_region:"Depoimentos, use as setas do teclado para navegar",
+  dp_stars:"de 5 estrelas",
+
   how_eye:"Benefícios", how_h2:"Do briefing ao paciente agendado",
   how_intro:"Um processo simples, transparente e sem caixa-preta. Você acompanha cada etapa, aprova tudo antes de ir ao ar e recebe relatórios claros sobre o que está funcionando.",
   step1_h:"Briefing estratégico",
@@ -203,6 +219,22 @@ const I18N={
   sol_eye:"For those starting out", sol_h2:"You don't need to wait for your clinic to grow to start building your brand.",
   sol_p1:"Converte teaches you the full strategy for building your digital presence, but also shows how to position yourself to attract your first patients, present your services, close appointments and build your authority in the market.",
 
+  dp_eye:"Testimonials",
+  dp_h2:"Who already took their clinic digital",
+  dp_intro:"Doctors and clinics that started being found by the right patient.",
+  dp1_t:"I only had Instagram and was answering the same DM over and over. Now the patient arrives knowing the consultation fee and where the office is.",
+  dp1_name:"Dr. Jane Smith", dp1_role:"Dermatology · City, State",
+  dp2_t:"What convinced me was that they understand what CFM allows and what it doesn't. I had already turned down two agencies before.",
+  dp2_name:"Dr. John Doe", dp2_role:"Orthopedics · City, State",
+  dp3_t:"I took too long to send the photos and that delayed my part, not theirs. Other than that, the WhatsApp booking worked from day one.",
+  dp3_name:"Clinic Name", dp3_role:"Multidisciplinary clinic · City, State",
+  dp4_t:"My old website looked broken on mobile and I didn't even know. Almost every patient comes from their phone, so that was money walking out the door.",
+  dp4_name:"Dr. John Doe", dp4_role:"Cardiology · City, State",
+
+  dp_prev:"Previous testimonial", dp_next:"Next testimonial",
+  dp_go:"Go to testimonial", dp_region:"Testimonials, use arrow keys to navigate",
+  dp_stars:"out of 5 stars",
+
   how_eye:"Benefits", how_h2:"From briefing to booked patient",
   how_intro:"A simple, transparent process with no black boxes. You follow every step, approve everything before it goes live, and receive clear reports on what's working.",
   step1_h:"Strategic briefing",
@@ -344,6 +376,18 @@ function apply(){
   document.querySelectorAll("[data-i18n-html]").forEach(function(el){
     var k=el.getAttribute("data-i18n-html");
     if(t[k]!=null) el.innerHTML=t[k];
+  });
+  document.querySelectorAll("[data-i18n-label]").forEach(function(el){
+    var k=el.getAttribute("data-i18n-label");
+    if(k==="dp_stars"){
+      var n=el.dataset.dpNota||"5";
+      el.setAttribute("aria-label",n+" "+t[k]);
+    } else if(k==="dp_go"){
+      var idx=el.dataset.dpIndex||"1";
+      el.setAttribute("aria-label",t[k]+" "+idx);
+    } else if(t[k]!=null){
+      el.setAttribute("aria-label",t[k]);
+    }
   });
   document.querySelectorAll("[data-wa]").forEach(function(a){a.setAttribute("href",waLink(t._wa));});
   document.querySelectorAll("[data-wa-exit]").forEach(function(a){a.setAttribute("href",waLink(t._waexit));});

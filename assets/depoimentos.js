@@ -39,6 +39,8 @@ export function initDepoimentos(raiz, opcoes = {}) {
     ).join('');
     caixa.setAttribute('role', 'img');
     caixa.setAttribute('aria-label', `${nota} de 5 estrelas`);
+    caixa.setAttribute('data-i18n-label', 'dp_stars');
+    caixa.dataset.dpNota = nota;
   });
 
   /* ---- controles gerados por JS, então não existem sem ele ---- */
@@ -56,7 +58,9 @@ export function initDepoimentos(raiz, opcoes = {}) {
     return b;
   };
   const anterior = botaoSeta('anterior', 'Depoimento anterior');
+  anterior.setAttribute('data-i18n-label', 'dp_prev');
   const proximo  = botaoSeta('proximo',  'Próximo depoimento');
+  proximo.setAttribute('data-i18n-label', 'dp_next');
 
   const caixaSetas = document.createElement('div');
   caixaSetas.className = 'dp-setas';
@@ -67,6 +71,8 @@ export function initDepoimentos(raiz, opcoes = {}) {
     b.type = 'button';
     b.className = 'dp-ponto';
     b.setAttribute('aria-label', `Ir para o depoimento ${i + 1}`);
+    b.setAttribute('data-i18n-label', 'dp_go');
+    b.dataset.dpIndex = i + 1;
     on(b, 'click', () => irPara(i));
     pontos.appendChild(b);
     return b;
@@ -77,6 +83,7 @@ export function initDepoimentos(raiz, opcoes = {}) {
   trilho.tabIndex = 0;
   trilho.setAttribute('role', 'region');
   trilho.setAttribute('aria-label', 'Depoimentos, use as setas do teclado para navegar');
+  trilho.setAttribute('data-i18n-label', 'dp_region');
 
   /* ---- navegação ---- */
   let atual = 0;
