@@ -61,7 +61,7 @@ const I18N={
   sol_eye:"Para quem está começando", sol_h2:"Você não precisa esperar seu consultório crescer para começar a construir sua marca.",
   sol_p1:"A Converte te ensina toda a estratégia para a construção da sua  presença digital, mas também mostra como se posicionar para atrair seus primeiros pacientes, apresentar seus serviços, fechar consultas e construir sua autoridade nesse mercado.",
 
-  how_eye:"Como funciona", how_h2:"Do briefing ao paciente agendado",
+  how_eye:"Benefícios", how_h2:"Do briefing ao paciente agendado",
   how_intro:"Um processo simples, transparente e sem caixa-preta. Você acompanha cada etapa, aprova tudo antes de ir ao ar e recebe relatórios claros sobre o que está funcionando.",
   step1_h:"Briefing estratégico",
   step1_p:"Entendemos sua especialidade, seu público-alvo, seus diferenciais e as regras específicas do seu conselho. Mapeamos oportunidades e definimos metas claras.",
