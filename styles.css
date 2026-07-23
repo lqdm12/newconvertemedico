@@ -1,3 +1,8 @@
+@layer base, componentes, utilitarios;
+@import url('assets/depoimentos.css');
+
+@layer base {
+
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
   --bg:#1C192A;
@@ -16,6 +21,12 @@
   --maxw:1200px;
   --fd:'Cabinet Grotesk',sans-serif;
   --fb:'Inter',sans-serif;
+  --dp-fundo:var(--bg);
+  --dp-superficie:var(--bg2);
+  --dp-texto:var(--text);
+  --dp-texto-suave:var(--muted);
+  --dp-cobalto:var(--blue);
+  --dp-ambar:var(--gold);
 }
 html{scroll-behavior:smooth;background:var(--bg)}
 body{background:var(--bg);color:var(--text);font-family:var(--fb);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden;font-weight:400;position:relative}
@@ -290,3 +301,5 @@ footer{padding:64px 0 40px;border-top:1px solid var(--border)}
   .brand .wm .l2{font-size:8px;letter-spacing:.4em}
   .nav-r .lang{display:none}
 }
+
+} /* @layer base */
