@@ -21,7 +21,7 @@
   --maxw:1200px;
   --fd:'Cabinet Grotesk',sans-serif;
   --fb:'Inter',sans-serif;
-  /*--dp-fundo:var(--bg)*/;
+  --dp-fundo:var(--bg);
   --dp-superficie:var(--bg2);
   --dp-texto:var(--text);
   --dp-texto-suave:var(--muted);
