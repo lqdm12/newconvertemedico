@@ -230,8 +230,8 @@ const I18N={
   proof_p2:"We don't work with empty promises or inflated metrics. Every report shows what really matters: how many people saw your page, how many got in touch, and how many booked. Total transparency from start to finish.",
   badge1_t:"LGPD", badge1_s:"Data protected",
   badge2_t:"Secure site", badge2_s:"SSL certificate included",
-  badge3_t:"Digital security", badge3_s:"Development best practices and digital asset protection",
-  badge4_t:"Transparency", badge4_s:"Clear processes and follow-up at every stage",
+  badge3_t:"Digital security", badge3_s:"Digital asset protection",
+  badge4_t:"Transparency", badge4_s:"Follow-up at every stage",
 
   price_eye:"Plans", price_h2:"Start small and grow",
   price_intro:"Choose your starting point. No abusive lock-ins, clear from start to finish. All plans include human support and monthly reports.",
