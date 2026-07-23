@@ -28,7 +28,7 @@
   --dp-largura:      1120px;
   --dp-gap:          20px;
 
-  background: var(--dp-fundo);
+  background: /*var(--dp-fundo)*/;
   color: var(--dp-texto);
   padding: 88px 0;
   font-family: 'Cabinet Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
