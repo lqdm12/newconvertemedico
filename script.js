@@ -88,8 +88,8 @@ const I18N={
   proof_p2:"Não trabalhamos com promessas vazias nem métricas infladas. Cada relatório mostra o que realmente importa: quantas pessoas viram sua página, quantas entraram em contato e quantas agendaram. Transparência total do início ao fim.",
   badge1_t:"LGPD", badge1_s:"Dados protegidos",
   badge2_t:"Site Seguro", badge2_s:"Certificado SSL incluso",
-  badge3_t:"Segurança Digital", badge3_s:"Boas práticas de desenvolvimento e proteção dos ativos digitais",
-  badge4_t:"Transparência", badge4_s:"Processos claros e acompanhamento em todas as etapas",
+  badge3_t:"Segurança Digital", badge3_s:"Proteção dos ativos digitais",
+  badge4_t:"Transparência", badge4_s:"Acompanhamento em todas as etapas",
 
   price_eye:"Planos", price_h2:"Comece pequeno e cresça",
   price_intro:"Escolha o ponto de partida. Sem fidelidade abusiva, com clareza do começo ao fim. Todos os planos incluem suporte humano e relatórios mensais.",
