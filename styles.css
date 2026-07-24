@@ -346,7 +346,7 @@ footer{padding:64px 0 40px;border-top:1px solid var(--dp-borda)}
 .modal{position:fixed;inset:0;z-index:80;background:color-mix(in srgb, var(--c-ink) 78%, transparent);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:24px}
 .modal.show{display:flex}
 .modal .box{background:var(--dp-superficie);border:1px solid var(--dp-ambar);border-radius:22px;max-width:440px;padding:38px;position:relative;text-align:center}
-.modal .box .badge{width:66px;height:66px;margin:0 auto 16px;border-radius:50%}
+.modal .box .badge{width:auto;height:66px;margin:0 auto 16px;border-radius:50%}
 .modal .box h3{font-family:var(--fd);font-size:2rem;font-weight:900;color:var(--dp-texto);line-height:1}
 .modal .box p{color:var(--dp-texto-suave);margin:14px 0 22px;font-size:.96rem;line-height:1.65}
 .modal .x{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--dp-texto-mute);font-size:22px;cursor:pointer}
