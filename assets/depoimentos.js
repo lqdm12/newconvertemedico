@@ -98,8 +98,8 @@ export function initDepoimentos(raiz, opcoes = {}) {
 
   function sincronizar() {
     listaPontos.forEach((p, i) => p.setAttribute('aria-current', i === atual ? 'true' : 'false'));
-    anterior.disabled = trilho.scrollLeft < 4;
-    proximo.disabled  = noFim();
+    anterior.disabled = atual === 0;
+    proximo.disabled  = atual === cards.length - 1;
   }
 
   const noFim = () =>
