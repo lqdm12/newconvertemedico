@@ -2,39 +2,20 @@
    Depoimentos — componente isolado
    Prefixo .dp-  ·  sem dependência  ·  seguro para múltiplas instâncias
 
-   Tokens: os --dp-* têm fallback embutido. Se o seu design system já
-   expõe --cor-fundo, --cor-marca etc., faça o alias no :root do projeto
-   e não toque neste arquivo:
+   Tokens: este componente usa os tokens --dp-* globais definidos no
+   :root do projeto. Não redeclara tokens localmente.
 
-     :root{
-       --dp-fundo:   var(--cor-superficie-escura);
-       --dp-cobalto: var(--cor-marca);
-       --dp-ambar:   var(--cor-destaque);
-     }
+   Se o seu design system expõe tokens com outros nomes, faça o alias
+   no :root do projeto e não toque neste arquivo.
    ========================================================================== */
 
 @layer componentes {
 
 .dp{
-  --dp-fundo:        #1c192a;
-  --dp-superficie:   #232034;
-  --dp-texto:        #f4f3f7;
-  --dp-texto-suave:  #9b98ab;
-  --dp-cobalto:      #1a29e4;
-  --dp-cobalto-luz:  #7d88f8;
-  --dp-ambar:        #f3ab1f;
-  --dp-borda:        #302c44;
-  --dp-border:       rgba(255,255,255,.08);
-  --dp-border2:      rgba(243,171,31,.15);
-  --dp-raio:         20px;
-  --dp-largura:      1200px;
-  --dp-gap:          22px;
-  --dp-fb:           'Inter', sans-serif;
-
-  background: /*var(--dp-fundo)*/;
+  background: var(--dp-fundo);
   color: var(--dp-texto);
   padding: 96px 0;
-  font-family: 'Cabinet Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: var(--fd);
   overflow: hidden;
 }
 
@@ -42,7 +23,7 @@
 
 /* ---------- cabeçalho ---------- */
 .dp-topo{
-  max-width: var(--dp-largura);
+  max-width: var(--maxw);
   margin: 0 auto 48px;
   padding: 0 28px;
 }
@@ -51,7 +32,7 @@
   align-items: center;
   gap: 12px;
   margin: 0 0 18px;
-  font-family: var(--dp-fb);
+  font-family: var(--fb);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: .28em;
@@ -93,7 +74,7 @@
 
 @media (min-width: 1168px){
   .dp-trilho{
-    --dp-recuo: max(28px, calc((100vw - var(--dp-largura)) / 2));
+    --dp-recuo: max(28px, calc((100vw - var(--maxw)) / 2));
     padding-inline: var(--dp-recuo);
     scroll-padding-inline: var(--dp-recuo);
   }
@@ -107,13 +88,13 @@
   flex-direction: column;
   gap: 18px;
   padding: 32px;
-  background: rgba(255,255,255,.03);
-  border: 1px solid var(--dp-border);
+  background: var(--dp-superficie);
+  border: 1px solid var(--dp-borda);
   border-radius: var(--dp-raio);
   transition: all .25s;
 }
 .dp-card:hover{
-  border-color: var(--dp-border2);
+  border-color: var(--dp-ambar-borda);
   transform: translateY(-3px);
 }
 
@@ -127,6 +108,7 @@
   font-size: 1.02rem;
   font-weight: 400;
   line-height: 1.65;
+  color: var(--dp-texto-suave);
 }
 
 .dp-pessoa{
@@ -149,12 +131,12 @@
   background: color-mix(in srgb, var(--dp-cobalto) 26%, transparent);
 }
 .dp-avatar img{ width: 100%; height: 100%; object-fit: cover; }
-.dp-nome{ font-size: .96rem; font-weight: 700; line-height: 1.3; }
+.dp-nome{ font-size: .96rem; font-weight: 700; line-height: 1.3; color: var(--dp-texto); }
 .dp-papel{ margin-top: 2px; font-size: .84rem; font-weight: 400; line-height: 1.35; color: var(--dp-texto-suave); }
 
 /* ---------- controles ---------- */
 .dp-controles{
-  max-width: var(--dp-largura);
+  max-width: var(--maxw);
   margin: 0 auto;
   padding: 6px 28px 0;
   display: flex;
@@ -186,7 +168,7 @@
   cursor: pointer;
   transition: background .2s ease, border-color .2s ease, color .2s ease, opacity .2s ease;
 }
-.dp-seta:hover:not(:disabled){ background: var(--dp-cobalto); border-color: var(--dp-cobalto); color: #fff; }
+.dp-seta:hover:not(:disabled){ background: var(--dp-cobalto); border-color: var(--dp-cobalto); color: var(--dp-texto-invertido); }
 .dp-seta:disabled{ opacity: .3; cursor: default; }
 .dp-seta svg{ width: 17px; height: 17px; }
 
