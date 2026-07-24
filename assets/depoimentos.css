@@ -24,13 +24,16 @@
   --dp-cobalto-luz:  #7d88f8;
   --dp-ambar:        #f3ab1f;
   --dp-borda:        #302c44;
-  --dp-raio:         14px;
-  --dp-largura:      1120px;
-  --dp-gap:          20px;
+  --dp-border:       rgba(255,255,255,.08);
+  --dp-border2:      rgba(243,171,31,.15);
+  --dp-raio:         20px;
+  --dp-largura:      1200px;
+  --dp-gap:          22px;
+  --dp-fb:           'Inter', sans-serif;
 
   background: /*var(--dp-fundo)*/;
   color: var(--dp-texto);
-  padding: 88px 0;
+  padding: 96px 0;
   font-family: 'Cabinet Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
   overflow: hidden;
 }
@@ -40,36 +43,37 @@
 /* ---------- cabeçalho ---------- */
 .dp-topo{
   max-width: var(--dp-largura);
-  margin: 0 auto 44px;
-  padding: 0 24px;
+  margin: 0 auto 48px;
+  padding: 0 28px;
 }
 .dp-olho{
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  margin: 0 0 14px;
-  font-size: .75rem;
+  gap: 12px;
+  margin: 0 0 18px;
+  font-family: var(--dp-fb);
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: .16em;
+  letter-spacing: .28em;
   text-transform: uppercase;
   color: var(--dp-ambar);
 }
-.dp-olho::before{ content: ""; width: 26px; height: 2px; background: currentColor; }
+.dp-olho::before{ content: ""; width: 32px; height: 2px; background: currentColor; }
 
 .dp-titulo{
   margin: 0;
-  font-size: clamp(1.9rem, 4.2vw, 2.85rem);
-  line-height: 1.1;
-  font-weight: 800;
-  letter-spacing: -.025em;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 1.02;
+  font-weight: 900;
+  letter-spacing: -.015em;
   max-width: 18ch;
 }
 .dp-legenda{
-  margin: 14px 0 0;
-  max-width: 46ch;
-  font-size: 1.02rem;
+  margin: 18px 0 0;
+  max-width: 54ch;
+  font-size: 1.05rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.75;
   color: var(--dp-texto-suave);
 }
 
@@ -80,8 +84,8 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  padding: 8px 24px 30px;
-  scroll-padding-inline: 24px;
+  padding: 8px 28px 30px;
+  scroll-padding-inline: 28px;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -89,7 +93,7 @@
 
 @media (min-width: 1168px){
   .dp-trilho{
-    --dp-recuo: max(24px, calc((100vw - var(--dp-largura)) / 2));
+    --dp-recuo: max(28px, calc((100vw - var(--dp-largura)) / 2));
     padding-inline: var(--dp-recuo);
     scroll-padding-inline: var(--dp-recuo);
   }
@@ -102,17 +106,15 @@
   display: flex;
   flex-direction: column;
   gap: 18px;
-  padding: 28px 26px 24px;
-  background: var(--dp-superficie);
-  border: 1px solid var(--dp-borda);
+  padding: 32px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--dp-border);
   border-radius: var(--dp-raio);
-  transition: border-color .3s ease, box-shadow .3s ease, transform .3s ease;
+  transition: all .25s;
 }
 .dp-card:hover{
-  border-color: var(--dp-cobalto-luz);
-  box-shadow: 0 0 0 1px color-mix(in srgb, var(--dp-cobalto-luz) 30%, transparent),
-              0 18px 40px -24px var(--dp-cobalto);
-  transform: translateY(-2px);
+  border-color: var(--dp-border2);
+  transform: translateY(-3px);
 }
 
 .dp-estrelas{ display: flex; gap: 3px; }
@@ -154,7 +156,7 @@
 .dp-controles{
   max-width: var(--dp-largura);
   margin: 0 auto;
-  padding: 6px 24px 0;
+  padding: 6px 28px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
